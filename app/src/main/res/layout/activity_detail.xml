@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.materialme.DetailActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sportsImageDetail"
+        android:adjustViewBounds="true"
+        />
+
+
+    <TextView
+        android:id="@+id/titleDetail"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignBottom="@id/sportsImageDetail"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:text="@string/title_placeholder"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/newsTitleDetail"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@id/sportsImageDetail"
+        android:textColor="?android:textColorSecondary"
+        android:text="@string/news_placeholder" />
+
+    <TextView
+        android:id="@+id/subTitleDetail"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@id/newsTitleDetail"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla, urna gravida porta vulputate, ligula sapien hendrerit nulla, non lobortis ante urna sed diam. Aliquam erat volutpat. Praesent euismod tempus leo vel vulputate. Integer faucibus nisl nec pretium eleifend. Donec efficitur, diam non suscipit ornare, nibh lectus condimentum tortor, a bibendum ante mi eget justo. Fusce accumsan magna nec lectus hendrerit ultrices. Nullam porttitor tortor id nisi posuere, non faucibus ipsum ultricies. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed faucibus posuere scelerisque. Morbi eleifend ante et sollicitudin semper.
+
+Nulla facilisis ligula eu urna molestie ornare eu eget dui. Sed cursus odio eget neque hendrerit malesuada. Donec arcu elit, lacinia at egestas nec, laoreet eget justo. Nunc nibh ante, faucibus vel sollicitudin sed, accumsan ac nunc. Praesent et viverra sem. Nunc ac lacus nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis interdum augue. Aenean commodo ultrices nulla id condimentum. Mauris faucibus convallis sodales. Morbi id pulvinar massa.
+
+Proin vehicula felis id lacus facilisis, non ornare felis egestas. Nam egestas ante purus, sit amet tempor lorem lacinia quis. Suspendisse rutrum tristique augue, eget aliquet eros aliquet vitae. In nec augue vel felis interdum egestas tristique eu ante. Pellentesque consectetur fermentum elit ac dapibus. Suspendisse nunc neque, fringilla ut dolor quis, volutpat ornare turpis. Nam vehicula, justo id commodo condimentum, ante lacus tristique arcu, ut convallis leo sem id tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur dignissim mi in nibh congue fringilla vitae eget lectus. Curabitur rhoncus vestibulum elit, et auctor elit scelerisque non. Pellentesque vehicula fermentum nulla vel sagittis. In imperdiet, orci quis tristique ultricies, enim nisi eleifend magna, eu cursus enim risus ac odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse nec nulla sollicitudin, vulputate arcu at, molestie eros.
+
+Proin dignissim odio sollicitudin, egestas erat quis, iaculis enim. Duis magna tortor, iaculis eu sagittis non, finibus mollis justo. Vivamus pellentesque convallis risus cursus imperdiet. Proin non mi vitae purus commodo aliquet. Aliquam consectetur enim ac tristique maximus. In sit amet purus non velit pharetra faucibus. In hac habitasse platea dictumst. Mauris lacus libero, condimentum sit amet orci sed, aliquet finibus est. Nulla in ex eget justo iaculis dignissim nec in risus.
+
+Nunc vestibulum lorem pretium tortor ultrices, hendrerit scelerisque ex scelerisque. Quisque eros felis, rutrum id efficitur ac, convallis ut magna. Quisque vehicula diam eget nisl luctus consequat. Quisque nec elit vitae enim porttitor mollis ac at leo. Phasellus mollis mi vitae finibus venenatis. Integer sit amet justo orci. Praesent mauris risus, condimentum vitae enim eu, bibendum condimentum nisi. Morbi volutpat bibendum tortor, sit amet elementum ipsum iaculis eget. Mauris a lectus et nisi lacinia imperdiet eu ut sem." />
+</RelativeLayout>
+</ScrollView>
